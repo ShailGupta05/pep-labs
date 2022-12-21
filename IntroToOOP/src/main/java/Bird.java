@@ -38,6 +38,8 @@ public class Bird {
      * No need to change anything here, for now.
      */
     public Bird(){
+        If(ageMonths>=3)
+        return "Chirp";
 
     }
     /**

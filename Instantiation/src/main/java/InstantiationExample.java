@@ -18,7 +18,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        Type reference = new Type();
+        String reference = new String();
          return reference;
       
     }

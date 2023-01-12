@@ -1,6 +1,7 @@
 
 import java.util.Set;
 
+
 /**
  * Sets are unordered collections of elements. Sets do not allow duplicates.
  *
@@ -10,6 +11,7 @@ import java.util.Set;
  * https://www.w3schools.com/java/java_hashset.asp
  */
 public class SetExercise {
+    HashSet<Integer> numbs= new HashSet<Integer>();
     /**
      * Instantiate and return a Set of Integers.
      *

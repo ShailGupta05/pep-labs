@@ -121,5 +121,5 @@ public class ListExercise {
         cars.add(1);
         cars.add(2);
         cars.add(3);
-        cars.set(2,6);   }
+        cars.set(position,value);   }
 }

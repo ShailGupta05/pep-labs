@@ -10,6 +10,7 @@ public class CustomExceptionThrower {
      */
     public void throwCustomException(){
         
+        
        
     }
 

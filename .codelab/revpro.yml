@@ -344,6 +344,7 @@
       removeFromListTest2: 0
       updatePositionTest1: 0
       updatePositionTest2: 0
+      initializationError: 0
   Sets:
     :Week: 3
     :Order: 5

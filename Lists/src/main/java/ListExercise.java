@@ -66,7 +66,7 @@ public class ListExercise {
         cars.add(1);
         cars.add(2);
         cars.add(3);
-        cars.add(4);
+        cars.add(value);
     }
 
     /**
@@ -86,7 +86,7 @@ public class ListExercise {
         cars.add(1);
         cars.add(2);
         cars.add(3);
-        return cars.get(0);
+        return cars.get(index);
     }
 
     /**
@@ -103,7 +103,7 @@ public class ListExercise {
         cars.add(1);
         cars.add(2);
         cars.add(3);
-        cars.remove(2);
+        cars.remove(position);
 
     }
 
@@ -121,5 +121,7 @@ public class ListExercise {
         cars.add(1);
         cars.add(2);
         cars.add(3);
+    
+        
         cars.set(position,value);   }
 }

@@ -45,12 +45,14 @@ public class ListExercise {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-        ArrayList<Integer> cars = new ArrayList<Integer>();
+         ArrayList<Integer> cars = new ArrayList<Integer>();
         cars.add(1);
         cars.add(2);
         cars.add(3);
         
-        return cars.size();
+        
+        
+        return list.size();
     }
 
     /**

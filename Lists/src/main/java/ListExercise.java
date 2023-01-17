@@ -45,12 +45,10 @@ public class ListExercise {
      * @return the size of List (number of items it holds.)
      */
     public int getSize(List<Integer> list){
-       /*  ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);*/
+        int size=list.size();
+     
         
-        return list.size();
+        return size; 
     }
 
     /**
@@ -62,11 +60,7 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addToList(List<Integer> list, int value){
-        ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);
-        cars.add(value);
+       list.add(value);
     }
 
     /**
@@ -82,11 +76,8 @@ public class ListExercise {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
-         ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);
-        return cars.get(index);
+        
+        return list.get(index);
     }
 
     /**
@@ -99,11 +90,8 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void removeFromList(List<Integer> list, int position){
-        ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);
-        cars.remove(position);
+       
+        list.remove(position);
 
     }
 
@@ -117,11 +105,8 @@ public class ListExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void updateAtPosition(List<Integer> list, int position, int value){
-        ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);
-    
+       
         
-        cars.set(position,value);   }
+        list.set(position,value); 
+      }
 }

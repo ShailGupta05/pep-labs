@@ -37,11 +37,7 @@ public class SetExercise {
      * @return the size of set. (number of values)
      */
     public int getSize(Set<Integer> set){
-       // HashSet<Integer> set = new  HashSet<Integer>();
-       
-       int a=set.size();
-
-        return a;
+        return set.size();
     }
 
     /**

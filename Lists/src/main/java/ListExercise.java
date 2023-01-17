@@ -31,9 +31,7 @@ public class ListExercise {
      */
     public List<Integer> createList(){
         ArrayList<Integer> cars = new ArrayList<Integer>();
-        cars.add(1);
-        cars.add(2);
-        cars.add(3);
+      
 
         return cars;
     }

@@ -24,10 +24,7 @@ public class SetExercise {
      */
     public Set<Integer> createSet(){
         HashSet<Integer> numbs = new  HashSet<Integer>();
-        numbs.add(1);
-        numbs.add(1);
-        numbs.add(1);
-        numbs.add(1);
+       
         return numbs ;
     }
 

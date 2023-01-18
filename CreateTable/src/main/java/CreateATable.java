@@ -50,6 +50,7 @@ import java.sql.Statement;
  *
  */
 public class CreateATable {
+   
 
     /**
      * Assignment: Create a new table in the problem1.sql file, called "song" with 2 columns "title" and "artist".
@@ -63,6 +64,8 @@ public class CreateATable {
      *     |'Kashmir'          |'Led Zeppelin'         |
      */
     public void problem1(){
+      
+ 
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {

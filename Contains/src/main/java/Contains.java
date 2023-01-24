@@ -19,8 +19,6 @@ public class Contains {
             return true;
 
         }
-          
-
           else return false;
            
 

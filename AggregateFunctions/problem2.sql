@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM employee where last_name='Smith';

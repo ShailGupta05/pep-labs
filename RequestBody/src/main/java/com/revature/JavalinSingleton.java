@@ -1,5 +1,7 @@
 package com.revature;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import io.javalin.Javalin;
 
 /**
@@ -48,7 +50,7 @@ public class JavalinSingleton {
             ctx.contentType("application/json");
             artist.setArtistName("Beatels");
 
-            String jsonStringToBeReturned= om.writeValuesAsString(artist);
+            String jsonStringToBeReturned= om.writeValueAsString(artist);
             ctx.result(jsonStringToBeReturned);
 
                //implement logic here

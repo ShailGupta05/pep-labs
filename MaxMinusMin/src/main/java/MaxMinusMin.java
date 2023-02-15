@@ -17,7 +17,7 @@ public class MaxMinusMin {
         int n = nums.size();
   
         // loop to find minimum from ArrayList
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (nums.get(i) < min) {
                 min = nums.get(i);
             }
